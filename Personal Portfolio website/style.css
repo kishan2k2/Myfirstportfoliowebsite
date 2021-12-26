@@ -1,0 +1,211 @@
+/* css reset */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Pushster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    /* background-color: red; */
+    background-color: grey;
+    /* width: 254px; */
+    position: absolute;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.5s ease-in;
+}
+.sidebar nav li{
+    /* we do this kind of naming when there is no class name alloted to li or nav */
+    list-style-type: none;
+    padding: 33px 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+}
+.sidebar nav li a{
+    /* we do this kind of naming when there is no class name alloted to li or nav */
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    /* transition: transform 0.5s ease-out; */
+    
+}
+.container{
+    display: flex;
+}
+.sidebar nav{
+    padding: 29px;
+}
+.infocontainer{
+    /* background-color: hotpink; */
+    height: 83.8vh;
+    width: 153vh;
+    margin: 50px auto;
+    padding: 10px;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Pushster', cursive;
+}
+.devpic{
+    position: absolute;
+    width: 454px;
+    top: 300px;
+    left: 300px;
+    z-index:-1;
+}
+.devpic1{
+    position: absolute;
+    width: 200px;
+}
+.hello{
+    font-size: 70px;
+}
+.name{
+    font-size: 55px;
+    font-weight: bold;
+
+}
+.about{
+    font-size: 40px;
+
+}
+.button{
+    padding-top: 20px;
+}
+.button button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 34px;
+    background-color: hotpink;
+    color: brown;
+    font-weight: bold;
+    cursor: pointer;
+} 
+.button button:hover{
+    background-color: white;
+}
+.btn-sm{
+    font-size: 15px;
+    margin-top: -18px;
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 417.7px;
+}
+.contactform h1{
+    font-family: 'Fira Sans', sans-serif;
+}
+.contactform form div{
+    padding: px 0;
+    /* display: flex;
+    flex-direction: column; */
+}
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailhelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+#exampleCheck1{
+    width: 2vw;
+}
+.blogcontainer{
+    margin: 124px 195px;
+}
+.blogcontainer h1{
+    font-family: 'Fira Sans', sans-serif; 
+    margin: 3px 568px;
+    position: absolute;
+    top: 31px;
+    left: 12px;
+}
+.blogitem{
+    margin: 20px;
+   font-family: 'Fira Sans', sans-serif; 
+}
+.blogitem p{
+    font-family: 'Pushster', cursive;
+}
+.devinfo h2{
+    margin-top: 35px;
+}
+.skillcontainer{
+    width: 50vw;
+}
+.skillset {
+    height: 6px;
+    width: 58px;
+    background-color: red;
+    margin-top: 8px;
+    margin-left: 2px;
+    border: 2px solid black;
+}
+.skillitem{
+    margin-top: 10px;
+    display: flex;
+}
+.one00{
+    width: 300px;
+    background-color: red;
+}
+.two5{
+    width: 75px;
+    background-color: orange;
+}
+.one0{
+    width: 30px;
+    background-color: rgb(92, 92, 43);
+}
+.myproject h1{
+    margin-top: 20px;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    
+}
+.sidebargo{
+    transform: translate(-250px, 0);
+    position: absolute;
+}
+.cross{
+    margin-left: 140px;
+}
+@media (max-width: 950px){
+    *{
+        /* background-color: rgb(218, 174, 174); */
+    }
+    /* .sidebar{
+        transform: translate(-250px, 0);
+        position: absolute;
+    } */
+    .devpic{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
